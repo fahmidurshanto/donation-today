@@ -33,6 +33,9 @@
     width: 200px;
     font-weight: 400;
 }
+.btn-primary:hover{
+    background-color: lightskyblue;
+}
 .head{
     text-align: center;
 }
@@ -55,6 +58,7 @@ h2{
 }
 .body-description{
     color: gray;
+    text-align: center;
 }
 #money{
     display: inline-block;
@@ -75,3 +79,62 @@ h2{
 .second-btn:hover{
     background-color: rgba(153, 151, 148, 0.527);
 }
+.btn2{
+    padding-top: 30px;
+}
+hr{
+    color: rgba(128, 128, 128, 0.158);
+    width: 411px;
+    display: inline-block;
+}
+.taka{
+    padding-top: 50px;
+}
+/* icon section styles */
+.icon{
+    display: flex;
+    padding-top: 60px;
+    text-align: center;
+    gap: 10px;
+    display: inline-flex;
+}
+.icon-title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icon-description{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.food{
+    background-color: rgba(127, 255, 212, 0.459);
+    width: 300px;
+    height: 290px;
+    padding-top: 50px;
+}
+.shelter{
+    background-color: rgba(255, 182, 193, 0.37);
+    width: 300px;
+    height: 290px;
+    padding-top: 50px;
+}
+.edu{
+    background-color: rgba(255, 255, 0, 0.226);
+    width: 300px;
+    height: 290px;
+    padding-top: 50px;
+}
+.food img{
+    width: 53px;
+    height: 53px;
+}
+.shelter img{
+    width: 53px;
+    height: 53px;
+}
+.edu img{
+    width: 53px;
+    height: 53px;
+}
+/* end of this section */
